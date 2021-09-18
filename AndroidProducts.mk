@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/lineage_merlin.mk
+   $(LOCAL_DIR)/hentai_merlin.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_merlin-user \
-    lineage_merlin-userdebug \
-    lineage_merlin-eng
+    hentai_merlin-user \
+    hentai_merlin-userdebug \
+    hentai_merlin-eng

@@ -23,11 +23,10 @@ $(call inherit-product, device/xiaomi/merlin/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/hentai/build/product/hentai_product.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -37,7 +36,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlin
-PRODUCT_NAME := lineage_merlin
+PRODUCT_NAME := hentai_merlin
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
